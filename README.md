@@ -64,7 +64,7 @@ publishers: [
 
 ![image-20240711175905691](./assets/image-20240711175905691.png)
 
-除了delete:packages,其他全部勾选,然后Generate token,
+除了delete:packages之外,其他全部勾选,然后点击Generate token,
 
 然后你会得到一个token(这个token只在初次创建时可见),
 
