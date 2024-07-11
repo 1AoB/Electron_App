@@ -58,6 +58,18 @@ publishers: [
 
 3)配置github上的令牌
 
+[Settings](https://github.com/settings)->Developer settings
+
+然后:
+
+![image-20240711175905691](./assets/image-20240711175905691.png)
+
+除了delete:packages,其他全部勾选,然后Generate token,
+
+然后你会得到一个token(这个token只在初次创建时可见),
+
+最后,在你的Window电脑中设置token:  在cmd中执行  `setx GITHUB_TOKEN your_token`  (如果是macOS / Linux,则执行`export GITHUB_TOKEN=your_token`,macOS / Linux好像还需要执行`source ~/.bashrc`才可以生效,但是Window不用,你重新打开一个cmd就可以了)
+
 4)发布
 
 npm run publish
@@ -65,3 +77,12 @@ npm run publish
 此时项目已经发布成功!
 
 # 2.然后你可以同步一下,你的仓库
+
+```bash
+git add .
+git commit -m "xxx"
+git push
+```
+
+# 3.接着尝试发布你的v2.0.0版本
+
