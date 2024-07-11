@@ -76,6 +76,8 @@ npm run publish
 
 此时项目已经发布成功!
 
+注意:发布的exe文件,在你的release目录下,比如当前仓库的releases目录为:https://github.com/1AoB/Electron_App/releases
+
 # 2.然后你可以同步一下,你的仓库
 
 ```bash
@@ -86,3 +88,14 @@ git push
 
 # 3.接着尝试发布你的v2.0.0版本
 
+打开你的 `package.json` 文件，将 `version` 字段更新为 `2.0.0`。
+
+```json
+{
+  "name": "my-app",
+  "version": "2.0.0",//其实只需要修改这里就可以了
+  ...
+}
+```
+
+执行 npm run publish ,发布成功!
