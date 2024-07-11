@@ -1,4 +1,6 @@
 # Electron_App
+本仓库仅做electron的App发布测试
+
 # 1.Electron_App发布的详细步骤
 
 1.首先,在github上创建一个空白的仓库,将其拉取到桌面上
