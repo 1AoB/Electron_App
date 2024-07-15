@@ -7,15 +7,21 @@
 
 2.本仓库的内容,主要基于,两个重要的官方教程:
 
+(下面两个网站只需要打开,具体步骤从第3步开始)
+
 1)创建electronApp的具体步骤:
-
-https://www.electronforge.io/config/publishers/github
-
-2)设置github令牌的具体步骤:
 
 https://www.electronforge.io/
 
-3.拉去一个官方仓库
+2)设置github仓库信息的具体步骤:
+
+https://www.electronforge.io/config/publishers/github
+
+3.拉去一个官方仓库(这里正式开始)
+
+https://www.electronforge.io/这个网站写了很多,但那个是直接初始化一个本地仓库
+
+其实,可以直接进入"我们提前创建好的仓库",cd进去,然后执行下面这段代码即可
 
 npm init electron-app@latest my-app
 
