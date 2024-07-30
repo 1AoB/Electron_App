@@ -23,7 +23,8 @@ https://www.electronforge.io/      这个网站写了很多,但那个是直接�
 
 其实,可以直接进入"我们提前创建好的仓库",cd进去,然后执行下面这段代码即可
 
-npm init electron-app@latest my-app
+`npm init electron-app@latest my-app`
+这行命令真的很棒,把需要的模块和文件都设置好了,而且使用的是electron-forge工具,而不是简单的electron(By the way, electron-forge更加容易实现项目的打包)
 
 4.运行app
 
