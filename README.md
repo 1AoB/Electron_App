@@ -19,7 +19,7 @@ https://www.electronforge.io/config/publishers/github
 
 3.拉去一个官方仓库(这里正式开始)
 
-https://www.electronforge.io/这个网站写了很多,但那个是直接初始化一个本地仓库
+https://www.electronforge.io/      这个网站写了很多,但那个是直接初始化一个本地仓库
 
 其实,可以直接进入"我们提前创建好的仓库",cd进去,然后执行下面这段代码即可
 
