@@ -87,6 +87,12 @@ npm run publish
 
 注意:发布的exe文件,在你的release目录下,比如当前仓库的releases目录为:https://github.com/1AoB/Electron_App/releases
 
+
+>补充: 2024-10-12 今天才发现:原来release是在这里,这个Release是可以点击的
+>![image](https://github.com/user-attachments/assets/3d4ada6f-49a1-473d-9134-1d34d4bbb63a)
+
+
+
 # 2.然后你可以同步一下,你的仓库
 
 ```bash
